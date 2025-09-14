@@ -1,0 +1,33 @@
+/* Additional styles specific to the App component */
+.App {
+  text-align: left;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode p {
+  color: rgb(200, 200, 200);
+}
+
+.dark-mode a {
+  color: white;
+}
+
+.dark-mode .details-container {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+}
+
+.dark-mode .color-container {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+}
+
+.dark-mode .contact-info-upper-container {
+  background: rgb(30, 30, 30);
+  border-color: rgb(100, 100, 100);
+}
