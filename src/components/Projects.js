@@ -1,10 +1,6 @@
 import React from 'react';
 
 const Projects = ({ scrollToSection }) => {
-  const handleArrowClick = () => {
-    scrollToSection('contact');
-  };
-
   const projects = [
     {
       id: 1,
@@ -31,6 +27,10 @@ const Projects = ({ scrollToSection }) => {
       githubUrl: 'https://github.com/wanjagi/music-player'
     }
   ];
+
+  const handleArrowClick = () => {
+    scrollToSection('contact');
+  };
 
   const handleGithubClick = (url) => {
     window.open(url);

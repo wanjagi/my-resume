@@ -8,7 +8,7 @@ const Nav = ({ isMenuOpen, toggleMenu, scrollToSection }) => {
         <div>
           <ul className="nav-links">
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
-            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Skills</a></li>
+            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a></li>
             <li><a href="#work-experience" onClick={(e) => { e.preventDefault(); scrollToSection('work-experience'); }}>Experience</a></li>
             <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
             <li><a href="websites.html">Websites</a></li>
@@ -26,7 +26,7 @@ const Nav = ({ isMenuOpen, toggleMenu, scrollToSection }) => {
           </div>
           <div className={`menu-links ${isMenuOpen ? 'open' : ''}`}>
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
-            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Skills</a></li>
+            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a></li>
             <li><a href="#work-experience" onClick={(e) => { e.preventDefault(); scrollToSection('work-experience'); }}>Experience</a></li>
             <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
             <li><a href="websites.html">Projects</a></li>

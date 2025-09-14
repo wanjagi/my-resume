@@ -7,7 +7,7 @@ const Footer = ({ scrollToSection }) => {
         <div className="nav-links-container">
           <ul className="nav-links">
             <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
-            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Skills</a></li>
+            <li><a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection('experience'); }}>Experience</a></li>
             <li><a href="#work-experience" onClick={(e) => { e.preventDefault(); scrollToSection('work-experience'); }}>Experience</a></li>
             <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
             <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>

@@ -1,17 +1,14 @@
 import React from 'react';
 
 const Experience = ({ scrollToSection }) => {
+  const skills = {
+    technical: ['HTML', 'CSS', 'Python', 'JavaScript', 'React', 'Django', 'SQL', 'Git', 'PostgreSQL'],
+    professional: ['Critical Thinking', 'Problem Solving', 'Leadership', 'Communication Skills']
+  };
+
   const handleArrowClick = () => {
     scrollToSection('projects');
   };
-
-  const technicalSkills = [
-    'HTML', 'CSS', 'Python', 'JavaScript', 'React', 'Django', 'SQL', 'Git', 'PostgreSQL'
-  ];
-
-  const professionalSkills = [
-    'Critical Thinking', 'Problem Solving', 'Leadership', 'Communication Skills'
-  ];
 
   return (
     <section id="experience">
@@ -22,7 +19,7 @@ const Experience = ({ scrollToSection }) => {
           <div className="details-container">
             <h2 className="experience-sub-title">Technical Skills</h2>
             <div className="article-container">
-              {technicalSkills.map((skill, index) => (
+              {skills.technical.map((skill, index) => (
                 <article key={index}>
                   <img
                     src="/assets/checkmark.png"
@@ -39,7 +36,7 @@ const Experience = ({ scrollToSection }) => {
           <div className="details-container">
             <h2 className="experience-sub-title">Professional Skills</h2>
             <div className="article-container">
-              {professionalSkills.map((skill, index) => (
+              {skills.professional.map((skill, index) => (
                 <article key={index}>
                   <img
                     src="/assets/checkmark.png"

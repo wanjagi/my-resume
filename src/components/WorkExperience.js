@@ -1,10 +1,6 @@
 import React from 'react';
 
 const WorkExperience = ({ scrollToSection }) => {
-  const handleArrowClick = () => {
-    scrollToSection('projects');
-  };
-
   const workExperiences = [
     {
       id: 1,
@@ -23,6 +19,10 @@ const WorkExperience = ({ scrollToSection }) => {
       technologies: ["HTML", "CSS", "JavaScript", "Python", "SQL"]
     }
   ];
+
+  const handleArrowClick = () => {
+    scrollToSection('projects');
+  };
 
   return (
     <section id="work-experience">
