@@ -20,7 +20,7 @@ const Profile = ({ scrollToSection }) => {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src="/assets/profile-pic1.JPG" alt="Francis Gatonye" loading="lazy" />
+        <img src="./assets/profile-pic1.JPG" alt="Francis Gatonye" loading="lazy" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
@@ -39,13 +39,13 @@ const Profile = ({ scrollToSection }) => {
         </div>
         <div id="socials-container">
           <img
-            src="/assets/linkedin.png"
+            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             className="icon"
             onClick={handleLinkedInClick}
           />
           <img
-            src="/assets/github.png"
+            src="./assets/github.png"
             alt="My Github profile"
             className="icon"
             onClick={handleGithubClick}

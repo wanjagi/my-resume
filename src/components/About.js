@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = ({ scrollToSection }) => {
   const handleArrowClick = () => {
-    scrollToSection('experience');
+    scrollToSection('work-experience');
   };
 
   return (
@@ -12,7 +12,7 @@ const About = ({ scrollToSection }) => {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="/assets/about-pic1.png"
+            src="./assets/about-pic1.png"
             alt="Francis Gatonye"
             className="about-pic"
             loading="lazy"
@@ -22,7 +22,7 @@ const About = ({ scrollToSection }) => {
           <div className="about-containers">
             <div className="details-container">
               <img
-                src="/assets/education.png"
+                src="./assets/education.png"
                 alt="Education icon"
                 className="icon"
               />
@@ -43,7 +43,7 @@ const About = ({ scrollToSection }) => {
         </div>
       </div>
       <img
-        src="/assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         className="icon arrow"
         onClick={handleArrowClick}

@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Profile from './components/Profile';
 import About from './components/About';
 import Experience from './components/Experience';
+import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -33,6 +34,7 @@ function App() {
       <Profile scrollToSection={scrollToSection} />
       <About scrollToSection={scrollToSection} />
       <Experience scrollToSection={scrollToSection} />
+      <WorkExperience scrollToSection={scrollToSection} />
       <Projects scrollToSection={scrollToSection} />
       <Contact />
       <Footer scrollToSection={scrollToSection} />

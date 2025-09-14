@@ -25,7 +25,7 @@ const Experience = ({ scrollToSection }) => {
               {technicalSkills.map((skill, index) => (
                 <article key={index}>
                   <img
-                    src="/assets/checkmark.png"
+                    src="./assets/checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -42,7 +42,7 @@ const Experience = ({ scrollToSection }) => {
               {professionalSkills.map((skill, index) => (
                 <article key={index}>
                   <img
-                    src="/assets/checkmark.png"
+                    src="./assets/checkmark.png"
                     alt="Experience icon"
                     className="icon"
                   />
@@ -56,7 +56,7 @@ const Experience = ({ scrollToSection }) => {
         </div>
       </div>
       <img
-        src="/assets/arrow.png"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         className="icon arrow"
         onClick={handleArrowClick}
