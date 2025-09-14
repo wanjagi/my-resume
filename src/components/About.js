@@ -13,7 +13,7 @@ const About = ({ scrollToSection }) => {
         <div className="section__pic-container">
           <img
             src="/assets/about-pic1.png"
-            alt="Profile picture"
+            alt="Francis Gatonye"
             className="about-pic"
             loading="lazy"
           />

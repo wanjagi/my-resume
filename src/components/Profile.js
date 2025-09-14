@@ -20,7 +20,7 @@ const Profile = ({ scrollToSection }) => {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src="/assets/profile-pic1.JPG" alt="Francis Gatonye profile picture" loading="lazy" />
+        <img src="/assets/profile-pic1.JPG" alt="Francis Gatonye" loading="lazy" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
