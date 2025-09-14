@@ -9,25 +9,25 @@ const Projects = ({ scrollToSection }) => {
     {
       id: 1,
       title: 'Resume Website',
-      image: './assets/project4.png',
+      image: '/assets/project4.png',
       githubUrl: 'https://github.com/wanjagi/my-resume'
     },
     {
       id: 2,
       title: 'Online Store',
-      image: './assets/project1.png',
+      image: '/assets/project1.png',
       githubUrl: 'https://github.com/wanjagi/ecommerce'
     },
     {
       id: 3,
       title: 'CRM',
-      image: './assets/project2.png',
+      image: '/assets/project2.png',
       githubUrl: 'https://github.com/wanjagi/CRM'
     },
     {
       id: 4,
       title: 'JavaScript Music Player',
-      image: './assets/project3.png',
+      image: '/assets/project3.png',
       githubUrl: 'https://github.com/wanjagi/music-player'
     }
   ];
@@ -65,7 +65,7 @@ const Projects = ({ scrollToSection }) => {
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/assets/arrow.png"
         alt="Arrow icon"
         className="icon arrow"
         onClick={handleArrowClick}

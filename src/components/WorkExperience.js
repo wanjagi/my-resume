@@ -34,7 +34,7 @@ const WorkExperience = ({ scrollToSection }) => {
             <div key={experience.id} className="details-container">
               <div className="article-container">
                 <img
-                  src="./assets/company.png"
+                  src="/assets/company.png"
                   alt="Company icon"
                   className="icon"
                 />
@@ -60,7 +60,7 @@ const WorkExperience = ({ scrollToSection }) => {
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src="/assets/arrow.png"
         alt="Arrow icon"
         className="icon arrow"
         onClick={handleArrowClick}
